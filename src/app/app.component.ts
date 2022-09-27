@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'basic-event-binding-exercise';
+  pr(){
+    console.log('You have clicked the button');
+  };
 }
